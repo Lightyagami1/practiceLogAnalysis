@@ -1,5 +1,8 @@
 package com.cleartax.log;
 
+import com.cleartax.log.models.REST_METHOD;
+import com.cleartax.log.models.data;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -16,7 +19,7 @@ public class dataFrequency {
         for(ArrayList<String> v : val) {
             data key = new data();
             key.setRm(REST_METHOD.valueOf(v.get(1)));
-            key.setURL(v.get(2));
+            key.setUrl(v.get(2));
             freq.putIfAbsent(key, 1);
 
             if(freq.containsKey(key)) {

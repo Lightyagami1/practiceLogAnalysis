@@ -1,4 +1,4 @@
-package com.cleartax.log;
+package com.cleartax.log.models;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,5 +7,5 @@ import lombok.Setter;
 @Setter
 public class data {
     private REST_METHOD rm;
-    private String URL;
+    private String url;
 }

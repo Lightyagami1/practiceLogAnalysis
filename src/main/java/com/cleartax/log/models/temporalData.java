@@ -1,4 +1,4 @@
-package com.cleartax.log;
+package com.cleartax.log.models;
 
 import lombok.Value;
 
